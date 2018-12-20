@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/melancia.png">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="externos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="externos/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 justify-content-center shadow">
+
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"><img src="img/qqtemb.png">  Front-end: Q Q Tem? </a>
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-dark text-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <span><i class="fas fa-award"></i> </span>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                    <span><i class="fas fa-file"></i> </span>
+                                Dados
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                    <span><i class="fas fa-calculator"></i> </span>
+                                Produtos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                    <span><i class="fas fa-user"></i> </span>
+                                Usuarios
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Outros</span>
+                        <a class="d-flex align-items-center text-muted" href="#">
+                                <span><i class="fas fa-plus-circle"></i> </span>
+                        </a>
+                    </h6>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                    <span><i class="fas fa-file-text"></i> </span>
+                                Relatórios
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Gráfico</h1>
+
+                </div>
+
+                <div id="grafico" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+                <h2>Dados</h2>
+
+                <div class="table-responsive">
+                    <table id="teste" class="table table-striped table-sm"></table>
+                    <table id="dados" class="table table-striped table-sm">
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="externos/jquery/jquery.min.js"></script>
+    <script src="externos/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="externos/datatables/jquery.dataTables.min.js"></script>
+    <script src="externos/fontawesome-free/js/all.min.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
